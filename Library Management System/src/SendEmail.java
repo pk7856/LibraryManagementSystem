@@ -90,10 +90,10 @@ public class SendEmail extends JFrame {
 				else{
 					try{
 		            String host ="smtp.gmail.com" ;
-		            String user = "pranavkumarsharma98@gmail.com";
-		            String pass = "HarHarMahadev";
+		            String user = "Email_id1";
+		            String pass = "Password";
 		            String to = textFieldTo.getText() ;
-		            String from = "pranavkumarsharma98@gmail.com";
+		            String from = "Email_id1";
 		            String subject = textFieldSub.getText();
 		            String messageText = textArea.getText();
 		            boolean sessionDebug = false;
